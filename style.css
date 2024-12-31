@@ -1,0 +1,728 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+}
+.p-color {
+  background-color: black;
+}
+/* shared style */
+.display-flex {
+  display: flex;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+.anchor {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-h,
+.habit,
+.habit-items,
+.extra-run,
+.bmi-text,
+.course-heading,
+.courses,
+.trainer-imgs,
+.footer1,
+hr {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+/* header */
+header {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0a0a0a,
+    #121212,
+    #181818,
+    #1d1d1d,
+    #1d1d1d,
+    #1d1d1d,
+    #1d1d1d,
+    #181818,
+    #121212,
+    #0a0a0a,
+    #000000
+  );
+}
+.header-nav {
+  align-items: center;
+}
+.Fitness {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: #e6533c;
+}
+.unorderlist {
+  list-style: none;
+  gap: 47px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 39px;
+  padding-right: 20px;
+}
+.Home {
+  font-size: 18px;
+  background-color: #e6533c;
+  padding: 8px 20px;
+  border-radius: 46px;
+}
+nav {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 58px;
+}
+.hamburger-icon {
+  display: none;
+}
+/* bannner */
+.banner-heading {
+  font-size: 4.875rem;
+  font-weight: 800;
+  margin-top: 96px;
+  line-height: 5.8rem;
+}
+.miama {
+  font-family: "Miama", sans-serif;
+  font-size: 8.875rem;
+  font-weight: 500;
+  padding: 0;
+}
+.btn-join {
+  padding: 16px 41px;
+  color: white;
+  background-color: #e6533c;
+  border-radius: 42px;
+  border: 2px solid #e6533c;
+  font-size: 18px;
+  margin-right: 25px;
+}
+.btn-download {
+  padding: 16px 41px;
+  color: white;
+  background-color: black;
+  border-radius: 42px;
+  border: 2px solid white;
+  font-size: 18px;
+}
+.p-1 {
+  padding: 28px 0;
+}
+/* banner image */
+.first-image {
+  margin-top: 32px;
+  padding-top: 30px;
+  width: 55%;
+  margin-left: 200px;
+}
+.red-ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+  margin: 28px 12px 28px 23px;
+}
+.bg {
+  background-color: rgba(48, 48, 48, 0.84);
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.three {
+  padding-top: 23px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 800;
+}
+.five {
+  padding-top: 23px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  color: white;
+  font-weight: 800;
+}
+.v-des {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+.btn-one {
+  margin-left: 70px;
+  margin-top: -170px;
+  z-index: 1;
+  position: relative;
+}
+.btn-two {
+  margin-left: 410px;
+  margin-top: -400px;
+  z-index: 1;
+  position: relative;
+  padding-top: -15px;
+  padding-bottom: 5px;
+}
+/* habit */
+.habit-items {
+  gap: 40px;
+  margin-top: 58px;
+}
+.habit-item {
+  text-align: center;
+}
+.habit {
+  text-align: center;
+}
+.habit-style {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 95px;
+}
+.habit-des {
+  margin: 14px 0;
+}
+.habit-heading {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px 0 6px 0;
+}
+.habit-item-image {
+  border-radius: 50%;
+}
+.habit-item-des {
+  margin-top: 5px;
+}
+/* extra run section */
+.extra-run {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #222222;
+  border-radius: 18px;
+}
+.extra-run-img {
+  width: 340px;
+  height: 312px;
+  border-radius: 18px;
+  margin: 30px 0px 30px 180px;
+  margin-right: 0px;
+}
+.run-des {
+  padding-left: 50px;
+  margin: 15px 0 35px 0;
+  padding-right: 13px;
+  justify-content: start;
+}
+.run-heading {
+  padding-left: 50px;
+  margin-top: 40px;
+}
+.btn-run {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  padding: 16px 51px;
+}
+.none-img {
+  display: none;
+  margin-bottom: 19px;
+}
+.none-break {
+  display: none;
+}
+/* BMI section */
+.bmi-form-1 {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.bmi-heading {
+  margin-left: 170px;
+}
+.bmi-des {
+  margin: 14px 157px 80px 170px;
+}
+.bmi-form {
+  background-color: #222222;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+}
+.bmi-heading1 {
+  font-size: 28px;
+  font-weight: 900;
+  padding: 50px 0 50px 0;
+}
+table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  text-align: left;
+  border-collapse: collapse;
+}
+th {
+  font-size: 16px;
+  font-weight: 500;
+}
+td {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+.bmi-calculate {
+  max-width: 600px;
+  margin-left: 160px;
+}
+.bmi-chart {
+  max-width: 500px;
+}
+.bmi-des2 {
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+input,
+select {
+  color: rgba(255, 255, 255, 0.5);
+}
+.form {
+  padding: 13px 80px 13px 20px;
+}
+.form-sex {
+  padding: 13px 204px 13px 20px;
+}
+.form-activity {
+  padding: 13px 393px 13px 20px;
+  margin-top: 10px;
+}
+.form-activity,
+.form-sex,
+.form {
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+.btn-bmi {
+  padding: 16px 65px;
+  margin-top: 30px;
+}
+/* course description */
+.course-heading {
+  text-align: center;
+}
+.course {
+  border: 2px solid #222222;
+  background-color: #222222;
+  display: inline-block;
+  border-radius: 18px;
+  margin-top: 55px;
+}
+.middle-course {
+  margin: 55px 70px 0 70px;
+}
+.course-name {
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.course-fee {
+  font-size: 3rem;
+  color: #e6533c;
+  padding: 0 80px 0px 80px;
+  font-weight: 800;
+}
+.single-class {
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.course-item {
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+}
+.btn-enroll {
+  margin-top: 40px;
+}
+.fee-plan-des {
+  margin: 15px 120px;
+}
+/* Trainer section */
+.trainer-heading,
+.trainer-des {
+  text-align: center;
+  margin: 10px 0;
+}
+.trainer-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 18px;
+  background-color: #222222;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 60px;
+}
+.trainer-img {
+  width: 100%;
+  border-radius: 18px;
+  height: 100%;
+}
+.trainer-name {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: -55px;
+  margin-left: 15px;
+}
+.trainer-position {
+  margin-left: 15px;
+}
+/* footer */
+.Fitness-footer {
+  font-size: 3.375rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: #e6533c;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: #222222;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.footer-des {
+  max-width: 400px;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding-top: 60px;
+  padding-left: 130px;
+  padding-bottom: 30px;
+}
+.fh-2 {
+  padding-left: 175px;
+}
+.footer-list1 {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 130px;
+  margin-bottom: 80px;
+}
+.footer-list2 {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 175px;
+  margin-bottom: 80px;
+}
+.footer-items,
+.footer-items1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.footer-anchor {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-items1 {
+  margin-top: 10px;
+}
+.hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ending-point {
+  text-align: center;
+  padding: 25px 0;
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  header {
+    background: none;
+  }
+  /* responsive navbar */
+  nav {
+    padding-top: 35px;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .unorderlist {
+    display: none;
+  }
+  /* responsive banner */
+  .banner {
+    flex-direction: column;
+    margin-left: -100px;
+  }
+  .banner-heading {
+    font-size: 42px;
+    margin-left: 100px;
+    line-height: 3rem;
+    margin-top: 50px;
+  }
+  .miama {
+    font-size: 70px;
+    margin-left: 2px;
+  }
+  .p-1 {
+    margin-left: 100px;
+  }
+  .btn-join {
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .btn-download {
+    margin-left: 100px;
+    padding: 16px 43px;
+  }
+
+  .first-image {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .btn-one {
+    margin-left: 90px;
+    padding: 0;
+    margin-top: -250px;
+    align-items: center;
+    width: 190px;
+  }
+  .red-ball {
+    height: 42px;
+    width: 43px;
+    border-radius: 50%;
+    background-color: #e6533c;
+    margin: 21px 0px 21px 17px;
+  }
+  .three {
+    padding: 0;
+    margin-bottom: -10px;
+    margin-left: 0px;
+  }
+  .vt {
+    margin-top: -100px;
+    padding: 0;
+    margin: 0;
+  }
+  .five {
+    padding: 0 0 0 7px;
+    margin-bottom: -10px;
+  }
+  .v-des {
+    margin: 0;
+    padding-left: 12px;
+    padding-bottom: 2px;
+  }
+  .btn-two {
+    margin-top: -430px;
+    margin-left: 290px;
+    margin-right: 90px;
+    width: 170px;
+  }
+  /* habit item */
+  .habit {
+    margin-top: 600px;
+  }
+  .habit-items {
+    flex-direction: column;
+    margin: auto;
+  }
+  .habit-style {
+    font-size: 31px;
+    font-weight: 800;
+    margin-top: -70px;
+  }
+  .habit-item-des {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  /* Extra run section */
+  .extra-run {
+    flex-direction: column;
+  }
+  .none-img {
+    display: block;
+    width: 85%;
+    border-radius: 20px;
+    margin: 20px auto;
+    margin-bottom: 35px;
+  }
+  .extra-run-img {
+    display: none;
+  }
+  .run-heading {
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+  .run-des {
+    padding-left: 30px;
+  }
+  .btn-run {
+    margin-left: 30px;
+    padding: 16px 92px;
+  }
+  .run-section-break {
+    display: none;
+  }
+  .none-break {
+    display: block;
+  }
+  /* BMI section */
+  .bmi-form-1 {
+    flex-direction: column;
+  }
+  .bmi-heading {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .bmi-des {
+    margin: 14px 0px 60px 0px;
+  }
+  .bmi-calculate {
+    width: 330px;
+    margin-left: 10px;
+  }
+  .bmi-form {
+    width: 425px;
+    margin-left: -30px;
+  }
+  .bmi-form-1 {
+    margin-left: 10px;
+  }
+  .form {
+    padding: 13px 0px 13px 20px;
+    width: 175px;
+  }
+  .form-width,
+  .form-sex {
+    margin-left: -50px;
+  }
+  .form-sex {
+    padding: 13px 85px 13px 20px;
+  }
+  .form-activity {
+    padding: 13px 155px 13px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  form {
+    margin-left: -31px;
+  }
+  .btn-bmi {
+    margin-left: 10px;
+  }
+  /* course details */
+  .courses {
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin: auto;
+  }
+  .middle-course,
+  .course {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .fee-plane-heading {
+    text-align: left;
+    font-size: 28px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: -15px;
+  }
+  .fee-plan-des {
+    margin: 30px 0;
+    margin-right: 18px;
+    text-align: left;
+  }
+  .course-fee {
+    text-align: center;
+    padding-left: 80px;
+    margin-top: 20px;
+  }
+  .btn-enroll {
+    margin-left: 56px;
+    margin-bottom: 40px;
+    padding: 20px 67px;
+  }
+
+  .trainer-text {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .trainer-imgs {
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    padding-left: 0px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+  }
+  .img-5 {
+    margin-top: -20px;
+  }
+  .img-4,
+  .img-1,
+  .trainer-none {
+    display: none;
+  }
+
+  .trainer-position,
+  .trainer-name {
+    margin-left: 25px;
+  }
+  /* footer */
+  .footer1 {
+    flex-direction: column;
+  }
+  footer {
+    width: 425px;
+    margin-left: -20px;
+  }
+  .footer-heading,
+  .footer-list1,
+  .footer-list2 {
+    padding-left: 0;
+  }
+  .footer-heading {
+    padding-top: 10px;
+  }
+  .fh-1 {
+    margin-top: 50px;
+  }
+  .fh-2 {
+    margin-top: -20px;
+  }
+  .hr {
+    margin: 0 30px;
+  }
+  .ending-point {
+    padding: 40px 0;
+  }
+  .footer-items1 {
+    margin-top: 0;
+  }
+}
